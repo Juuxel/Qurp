@@ -1,15 +1,15 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "juuxel.qurp.mixinor",
-  "compatibilityLevel": "JAVA_8",
-  "mixins": [
-	  "MathHelperMixinor",
-	  "SurfaceChunkGeneratorMixinor"
-  ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+	"required": true,
+	"minVersion": "0.8",
+	"package": "juuxel.qurp.mixinor",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"MathHelperMixinor",
+		"SurfaceChunkGeneratorMixinor"
+	],
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
 }

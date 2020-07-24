@@ -1,28 +1,28 @@
 {
-  "schemaVersion": 1,
-  "id": "qurp",
-  "version": "${version}",
+	"schemaVersion": 1,
+	"id": "qurp",
+	"version": "${version}",
 
-  "name": "Qurp",
-  "description": "quadratic > linear",
-  "authors": [
-    "Juuz"
-  ],
+	"name": "Qurp",
+	"description": "quadratic > linear",
+	"authors": [
+		"Juuz"
+	],
 
-  "icon": "assets/qurp/icon.png",
+	"icon": "assets/qurp/icon.png",
 
-  "environment": "*",
-  "entrypoints": {
-    "main": [
-      "juuxel.qurp.Init"
-    ]
-  },
-  "mixins": [
-    "mixins.qurp.json"
-  ],
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"juuxel.qurp.Init"
+		]
+	},
+	"mixins": [
+		"mixins.qurp.json"
+	],
 
-  "depends": {
-    "fabricloader": ">=0.7.4",
-    "minecraft": "1.16.x"
-  }
+	"depends": {
+		"fabricloader": ">=0.7.4",
+		"minecraft": "1.16.x"
+	}
 }
